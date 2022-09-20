@@ -1,24 +1,31 @@
-
-
 body {
-    background-color: rgb(242, 245, 140);
-    color: rgb(10, 9, 9);
-    font-size: 35px;
+  margin-top: 10px;
+  margin: auto;
+
+  background-color: rgb(242, 245, 140);
+  color: rgb(10, 9, 9);
+  font-size: 35px;
+}
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-
-    width: 25%;
-    padding: 20px;
-    height: 400px; /* Should be removed. Only for demonstration */
-  }
-  
-
- 
-  </style>
-  </head>
-  <body>
-  
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  background-color: lightsteelblue;
+  width: 40vw;
+  padding: 20px;
+  height: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+.col-img {
+  height: 50%;
+}
