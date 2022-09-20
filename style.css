@@ -3,38 +3,21 @@
 body {
     background-color: rgb(242, 245, 140);
     color: rgb(10, 9, 9);
-    font-size: 25px;
-}
+    font-size: 35px;
 * {
     box-sizing: border-box;
   }
   
   /* Create three equal columns that floats next to each other */
   .column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+
+    width: 25%;
+    padding: 20px;
+    height: 400px; /* Should be removed. Only for demonstration */
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-.column {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
+ 
   </style>
   </head>
   <body>
