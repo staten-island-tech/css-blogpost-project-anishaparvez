@@ -36,4 +36,12 @@ h6 {
   height: 40vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.link {
+  text-align: center;
+  margin: 30px auto;
+  display: block;
 }
